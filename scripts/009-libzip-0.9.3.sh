@@ -1,7 +1,7 @@
 #!/bin/sh -e
 # libzip-0.9.3.sh by Naomi Peori (naomi@peori.ca)
 
-## Download the source code.
+## Download Atualizado.
 wget --continue https://libzip.org/download/libzip-0.9.3.tar.bz2
 
 ## Download an up-to-date config.guess and config.sub
