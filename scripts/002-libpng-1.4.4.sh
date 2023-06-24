@@ -2,7 +2,7 @@
 # libpng-1.4.4.sh by Naomi Peori (naomi@peori.ca)
 
 ## Download the source code.
-wget --continue https://sourceforge.net/projects/libpng/files/libpng14/older-releases/1.4.4/libpng-1.4.4.tar.gz/download
+wget --continue https://ufpr.dl.sourceforge.net/project/libpng/libpng14/older-releases/1.4.4/libpng-1.4.4.tar.gz
 
 ## Download an up-to-date config.guess and config.sub
 if [ ! -f config.guess ]; then wget --continue http://git.savannah.gnu.org/cgit/config.git/plain/config.guess; fi
