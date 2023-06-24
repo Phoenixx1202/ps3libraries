@@ -2,7 +2,7 @@
 # libmad-0.15.1b.sh by dhewg (dhewg@wiibrew.org)
 
 ## Download the source code.
-wget --continue https://sourceforge.net/projects/mad/files/libmad/0.15.1b/libmad-0.15.1b.tar.gz/download
+wget --continue https://sinalbr.dl.sourceforge.net/project/mad/madplay/0.15.2b/madplay-0.15.2b.tar.gz
 
 ## Download an up-to-date config.guess and config.sub
 if [ ! -f config.guess ]; then wget --continue http://git.savannah.gnu.org/cgit/config.git/plain/config.guess; fi
