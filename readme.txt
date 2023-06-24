@@ -1,19 +1,18 @@
+  ======================
+   O que isso faz?
+  ======================
 
- ====================
-  What does this do?
- ====================
+   Este programa criará e instalará automaticamente as bibliotecas usadas na criação
+   de software homebrew para o sistema Sony Playstation 3.
 
-  This program will automatically build and install libraries used in the creation
-  of homebrew software for the Sony Playstation 3 videogame system.
+  ==================
+   Como eu uso isso?
+  ==================
 
- ==================
-  How do I use it?
- ==================
+  1) Configure seu ambiente instalando o seguinte software:
 
- 1) Set up your environment by installing the following software:
+   autoconf, automake, libtool, make, pkg-config, ps3toolchain, psl1ght, wget
 
-  autoconf, automake, libtool, make, pkg-config, ps3toolchain, psl1ght, wget
+  2) Execute o script da biblioteca:
 
- 2) Run the library script:
-
-  ./libraries.sh
+   ./libraries.sh
