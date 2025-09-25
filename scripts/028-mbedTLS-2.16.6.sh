@@ -34,10 +34,10 @@ ARCH="powerpc64"
 PLATFORM="PS3"
 
 ## Download the source code.
-wget --continue --no-check-certificate -O mbedtls-${VERSION}.gpl.tgz http://downloads.arednmesh.org/sources/mbedtls-${VERSION}-gpl.tgz
+wget --continue --no-check-certificate -O mbedtls-${VERSION}.tar.gz https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/mbedtls-${VERSION}.tar.gz
 
 ## Unpack the source code.
-rm -Rf mbedtls-${VERSION} && tar xfvz mbedtls-${VERSION}.gpl.tgz && cd mbedtls-${VERSION}
+rm -Rf mbedtls-mbedtls-${VERSION} && tar xfvz mbedtls-${VERSION}.tar.gz && cd mbedtls-mbedtls-${VERSION}
 
 echo "Building mbedTLS ${VERSION} for ${PLATFORM} ${ARCH}"
 
