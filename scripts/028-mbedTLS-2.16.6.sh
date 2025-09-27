@@ -37,7 +37,7 @@ PLATFORM="PS3"
 wget --continue --no-check-certificate -O mbedtls-${VERSION}.tar.gz https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/mbedtls-${VERSION}.tar.gz
 
 ## Unpack the source code.
-rm -Rf mbedtls-mbedtls-${VERSION} && tar xfvz mbedtls-${VERSION}.tar.gz && cd mbedtls-mbedtls-${VERSION}
+rm -Rf mbedtls-${VERSION} mbedtls-mbedtls-${VERSION} && tar xfvz mbedtls-${VERSION}.tar.gz && mv mbedtls-mbedtls-${VERSION} mbedtls-${VERSION} && cd mbedtls-${VERSION}
 
 echo "Building mbedTLS ${VERSION} for ${PLATFORM} ${ARCH}"
 
